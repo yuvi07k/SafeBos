@@ -1,0 +1,38 @@
+.neighborhood-list {
+    padding: 1rem;
+    overflow-y: auto;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    width: 220px;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .card h3 {
+    margin-top: 0;
+    font-size: 1.1rem;
+  }
+  
+  .view-button {
+    background-color: #0077ff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  .view-button:hover {
+    background-color: #005ecc;
+  }
+  
+  

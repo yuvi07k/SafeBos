@@ -1,0 +1,33 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Loading and error states in the center of the screen */
+.loading,
+.error {
+  margin: auto;
+  font-size: 1.2rem;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.content-area {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+.map-section,
+.list-section {
+  flex: 1;
+  overflow-y: auto;
+  border-left: 1px solid #ccc;
+}
+
+

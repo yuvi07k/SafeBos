@@ -1,0 +1,38 @@
+.filter-panel {
+    width: 250px;
+    background-color: #f8f8f8;
+    border-right: 1px solid #ccc;
+    padding: 1rem;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+  }
+  
+  .filter-panel h2 {
+    margin-top: 0;
+  }
+  
+  .filter-group {
+    margin-bottom: 1rem;
+  }
+  
+  .filter-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .filter-group input {
+    width: 100%;
+    padding: 0.3rem;
+    box-sizing: border-box;
+  }
+  
+  .filter-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .filter-actions button {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
